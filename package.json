@@ -1,0 +1,13 @@
+{
+  "name": "app.js",
+  "version": "1.0.0",
+  "description": "A twitter bot that periodically searches for tweets and then reply automatically.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node app.js"
+  },
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
