@@ -10,10 +10,10 @@ const TWITTER_SEARCH_QUERY_COUNT = 10;
 const TWITTER_REPLY_TO_TWEETS = ["Greatest of all time."];
 
 const twitterBot = new twitter({
-  consumer_key: "8ENTpz3hLuZ3l3oxvWnB9cT00",
-  consumer_secret: "72dhdkFgWjdtVpUecxHJPFihtFUItd574qpfCy8hzP1vvbye7E",
-  access_token: "1569369572570206209-R8JsUzHH6tY2Td68Bz5vUwPEEc09X6",
-  access_token_secret: "W6D8nDQSUg8MDy7IoiuzgVNVwnc7jvuNFegCgFq7c1wm4",
+  consumer_key: "0dvTilGmlsILo8jReO3fVB85o",
+  consumer_secret: "WR0WZTHyMaR5qUMRO7TygnThs2v2IJYkCC6U32llv7zxiUR4gj",
+  access_token: "1571532827497467909-5bIjiQCbyPrvFV2OBr9yWcdnykVOPr",
+  access_token_secret: "Z146PxqG6HW59d7cYJL7dECHkGVBYsRIeCah2c6fEfxs4",
 });
 
 function TwitterBotSearchQueryResults(error, data, _response) {
